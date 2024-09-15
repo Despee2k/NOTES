@@ -8,7 +8,7 @@ typedef struct {
 ```
 
 ###### Diagram
-![[ArrImp3.png|300]]
+![Array Imp 3|300](../Attachments/ArrImp3.png)
 
 ###### Functions
 1. `initList()` - initializes the list to be empty.

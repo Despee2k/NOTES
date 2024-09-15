@@ -9,10 +9,10 @@ typedef struct {
 ```
 
 ###### Diagram
-![[ArrImp1.png|300]]
+![Array Imp 1|300](../Attachments/ArrImp1.png)
 
 ###### Functions
-1. `initList()` - initializes the list to be empty.
+1. `initList()` - initializes the list to be empty
 2. `insertLast()` - inserts an element at the last position in the list
 3. `insertLastUnique()` - inserts an element at the last position if it is unique
 4. `deleteElem()` - deletes a given element if it exists in the list
