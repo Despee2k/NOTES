@@ -8,7 +8,7 @@ typedef struct {
 ```
 
 ###### Diagram
-![Array Imp 3|300](../Attachments/ArrImp3.png)
+![Array Imp 3|300](CIS%202101%20-%20Data%20Structures%20and%20Algorithms/Attachments/ArrImp3.png)
 
 ###### Functions
 1. `initList()` - initializes the list to be empty.

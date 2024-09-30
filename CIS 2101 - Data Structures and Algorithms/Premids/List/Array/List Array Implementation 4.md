@@ -1,4 +1,4 @@
-  ###### Array Definition
+###### Array Definition
 ```c
 typedef struct {
 	int *elemPtr;
@@ -8,7 +8,7 @@ typedef struct {
 ```
 
 ###### Diagram
-![Array Imp 4|400](../Attachments/ArrImp4.png)
+![Array Imp 4|400](CIS%202101%20-%20Data%20Structures%20and%20Algorithms/Attachments/ArrImp4.png)
 
 ###### Functions
 1. `initList()` - initializes the list to be empty.

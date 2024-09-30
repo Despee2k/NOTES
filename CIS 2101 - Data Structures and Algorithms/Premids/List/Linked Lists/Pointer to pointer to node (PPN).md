@@ -7,7 +7,7 @@ typedef struct node{
 ```
 
 ###### Diagram
-![Linked List](../Attachments/LinkedList.png)
+![Linked List](CIS%202101%20-%20Data%20Structures%20and%20Algorithms/Attachments/LinkedList.png)
 
 ###### Complete Code
 ```c
