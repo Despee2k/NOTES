@@ -111,32 +111,26 @@ bool isMember(treePtr root, int data){
 }
 
 void inorder(treePtr root){
-    if(root->left != NULL){
+    if(root != NULL){
         inorder(root->left);
-    }
-    printf("%d ", root->data);
-    if(root->right != NULL){
+        printf("%d ", root->data);
         inorder(root->right);
     }
 }
 
 void preorder(treePtr root){
-    printf("%d ", root->data);
-    if(root->left != NULL){
+    if(root != NULL){
+        printf("%d ", root->data);
         preorder(root->left);
-    }
-    if(root->right != NULL){
         preorder(root->right);
     }
 }
 
 void postorder(treePtr root){
-    if(root->left != NULL){
+    if(root != NULL){
         postorder(root->left);
-    }
-    if(root->right != NULL){
         postorder(root->right);
+        printf("%d ", root->data);
     }
-    printf("%d ", root->data);
 }
 ```
