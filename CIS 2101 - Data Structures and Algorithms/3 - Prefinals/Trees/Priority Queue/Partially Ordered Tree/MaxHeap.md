@@ -15,7 +15,6 @@ typedef struct{
 1. `initPOT()` - initializes the partially ordered tree to te empty
 2. `getParent()` - get the parent index of the child index, this works for both left and right child because of integer division
 3. `insertPOT()` - insert element into the tree while satisfying POT properties
-4. `heapify()` - sort a populated array to satisfy POT properties
 
 ###### Complete Code
 ```c
@@ -67,6 +66,4 @@ void insertPOT(POT *p, int data){
         }
     }
 }
-
-// TODO: Add Heapify
 ```
