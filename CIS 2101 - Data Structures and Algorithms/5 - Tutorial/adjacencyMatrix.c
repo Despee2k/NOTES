@@ -26,21 +26,24 @@ void point(DAM *A, data d){
     A->edgeCount++;
 }
 
+void populateMatrix(DAM *A){
+    point(A, (data){'A', 'B'});
+    point(A, (data){'A', 'H'});
+    point(A, (data){'B', 'F'});
+    point(A, (data){'C', 'A'});
+    point(A, (data){'D', 'E'});
+    point(A, (data){'D', 'H'});
+    point(A, (data){'E', 'B'});
+    point(A, (data){'E', 'H'});
+    point(A, (data){'F', 'C'});
+    point(A, (data){'G', 'A'});
+    point(A, (data){'G', 'C'});
+}
+
 int main(void){
-    DAM XXX;
-    initMatrix(&XXX);
-    
-    point(&XXX, (data){'A', 'B'});
-    point(&XXX, (data){'A', 'H'});
-    point(&XXX, (data){'B', 'F'});
-    point(&XXX, (data){'C', 'A'});
-    point(&XXX, (data){'D', 'E'});
-    point(&XXX, (data){'D', 'H'});
-    point(&XXX, (data){'E', 'B'});
-    point(&XXX, (data){'E', 'H'});
-    point(&XXX, (data){'F', 'C'});
-    point(&XXX, (data){'G', 'A'});
-    point(&XXX, (data){'G', 'C'});
+    DAM X;
+    initMatrix(&X);
+    populateMatrix(&X);
 
     printf("WORKS!\n");
     return 0;
