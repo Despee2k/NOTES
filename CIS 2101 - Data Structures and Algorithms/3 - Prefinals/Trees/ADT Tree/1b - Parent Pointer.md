@@ -1,6 +1,6 @@
 [Python Tutor](https://pythontutor.com/c.html#mode=edit)
 
-###### Complete Code
+### Complete Code
 ```c
 #include <stdio.h>
 

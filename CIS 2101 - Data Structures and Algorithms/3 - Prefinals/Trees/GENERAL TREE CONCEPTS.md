@@ -16,7 +16,7 @@
 * **Depth of a Node**: The length of the unique path from the root to the node.
 
 ### Diagram
-![Tree Diagram](Attachments/1_Tree.png)
+![Tree Diagram](https://raw.githubusercontent.com/Despee2k/NOTES/main/CIS%202101%20-%20Data%20Structures%20and%20Algorithms/Attachments/1_Tree.png)
 
 ### Ordering of Nodes
 There are several methods to systematically arrange the nodes of a tree. The three most common methods are `preorder`, `inorder`, and `postorder`.
