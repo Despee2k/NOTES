@@ -1,9 +1,7 @@
+Variations of each function implemented using version 1 of List Array Implementation.
+
 [Python Tutor](https://pythontutor.com/c.html#mode=edit)
 
-### Diagram
-![ALT](https://raw.githubusercontent.com/Despee2k/NOTES/main/CIS%202101%20-%20Data%20Structures%20and%20Algorithms/Attachments/INSERTNAME)
-
-### Complete Code
 ```c
 #include <stdio.h>
 
@@ -111,5 +109,4 @@ int main(void){
     deleteAllOccur(&X, 3);
     printList(X);
 }
-
 ```

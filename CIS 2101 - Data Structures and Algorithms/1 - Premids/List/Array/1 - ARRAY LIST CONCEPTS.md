@@ -6,9 +6,16 @@ In an array-based implementation of a list, elements are stored in consecutive m
 
 ### Functions
 1. `Insert`
+    Variations:
+    - `InsertFirst`
+    - `InsertLast`
+    - `InsertSorted`
+    - `InsertLastUnique`
 2. `Locate`
 3. `Retrieve`
 4. `Delete`
+    Variations:
+    - `DeleteAllOccurances`
 5. `MakeNull`
 6. `PrintList`
 
