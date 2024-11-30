@@ -1,15 +1,7 @@
-###### Linked List Definition
-```c
-typedef struct node{
-	int data;
-	struct node *next;
-} List, *listPtr;
-```
+Variations of each function implemented using pointer to pointer to node (PPN) List Implementation
 
-###### Diagram
-![Linked List](CIS%202101%20-%20Data%20Structures%20and%20Algorithms/Attachments/LinkedList.png)
+[Python Tutor](https://pythontutor.com/c.html#mode=edit)
 
-###### Complete Code
 ```c
 #include <stdio.h>
 #include <stdlib.h>
