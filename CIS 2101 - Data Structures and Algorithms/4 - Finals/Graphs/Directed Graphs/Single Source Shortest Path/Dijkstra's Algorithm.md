@@ -1,7 +1,9 @@
-Sadly python tutor can't visualize this because it has too many steps, refer ti [[DIJKSTRA CODE]]
+Sadly Python Tutor can't visualize this because it has too many steps, refer to [[DIJKSTRA PSEUDOCODE]] for the process.
 
 ### Diagram
 ![Weighted Directed Graph](https://raw.githubusercontent.com/Despee2k/NOTES/main/CIS%202101%20-%20Data%20Structures%20and%20Algorithms/Attachments/3_WeightedDirectedGraph.png)
+
+This Dijkstra's Algorithm was implemented with the use of [[1 - SET CONCEPTS|SETS]] and SET FUNCTIONS.
 
 ### Complete Code
 ```c
