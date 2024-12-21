@@ -1,47 +1,35 @@
-###### Definition
-```c
-#define MAX 10
+[Python Tutor](https://pythontutor.com/c.html#mode=edit)
 
-typedef struct {
-    int set[MAX];
-    int size;
-} SET;
-```
-
-###### Diagram
-
-
-###### Functions
-1. `Union`
-2. `Intersection`
-3. `Difference`
-
-###### Complete Code
+### Complete Code
 ```c
 #include <stdio.h>
 
 #define MAX 10
 
+// NOTES
+// MAX of A and B will be MAX / 2 which is 5
+
+typedef int object;
+
 typedef struct {
-    int set[MAX];
+    object set[MAX];
     int size;
 } SET;
 
 SET Union(SET A, SET B);
 SET Intersection(SET A, SET B);
 SET Difference(SET A, SET B);
-void printer(SET S);
+void printSet(SET S);
 
 int main(void){
-    // MAX of A and B will be MAX / 2 which is 5
     SET A = {{1, 4, 7}, 3};
     SET B = {{6, 7, 3, 9}, 4};
     SET C = Union(A, B);
-    printer(C);
+    printSet(C);
     SET D = Intersection(A, B);
-    printer(D);
+    printSet(D);
     SET E = Difference(A, B);
-    printer(E);
+    printSet(E);
     
     return 0;
 }
@@ -76,7 +64,7 @@ SET Difference(SET A, SET B){
     return C;
 }
 
-void printer(SET S){
+void printSet(SET S){
     printf("{ ");
     for(int i; i < S.size; i++){
         printf("%d ", S.set[i]);
@@ -84,5 +72,3 @@ void printer(SET S){
     printf("}\n");
 }
 ```
-
-

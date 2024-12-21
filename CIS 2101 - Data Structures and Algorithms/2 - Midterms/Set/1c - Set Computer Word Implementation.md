@@ -1,17 +1,6 @@
-###### Definition
-```c
-#define MAX (sizeof(char) * 8)
+[Python Tutor](https://pythontutor.com/c.html#mode=edit)
 
-typedef unsigned char SET;
-```
-
-###### Diagram
-
-
-###### Functions
-
-
-###### Complete Code
+### Complete Code
 ```c
 #include <stdio.h>
 

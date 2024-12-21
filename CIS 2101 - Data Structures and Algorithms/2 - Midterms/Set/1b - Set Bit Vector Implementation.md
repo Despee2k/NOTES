@@ -1,17 +1,6 @@
-###### Definition
-```c
-typedef int SET[MAX];
-```
+[Python Tutor](https://pythontutor.com/c.html#mode=edit)
 
-###### Diagram
-
-
-###### Functions
-1. `Union`
-2. `Intersection`
-3. `Difference`
-
-###### Complete Code
+### Complete Code
 ```c
 #include <stdio.h>
 #include <stdlib.h>
@@ -23,7 +12,7 @@ typedef int SET[MAX];
 SET* Union(SET A, SET B);
 SET* Intersection(SET A, SET B);
 SET* Difference(SET A, SET B);
-void printer(SET S);
+void printSet(SET S);
 
 int main(void){
     SET A = {1, 0, 1, 0, 1};
@@ -31,10 +20,10 @@ int main(void){
     
     SET *C = Union(A, B);
     SET *D = Intersection(A, B);
-    printer(*C);
-    printer(*D);
+    printSet(*C);
+    printSet(*D);
     SET *E = Difference(B, A);
-    printer(*E);
+    printSet(*E);
     
     return 0;
 }
@@ -64,7 +53,7 @@ SET* Difference(SET A, SET B){
     return C;
 }
 
-void printer(SET S){
+void printSet(SET S){
     printf("{ ");
     for(int i = 0; i < MAX; i++){
         if(S[i] == 1){
@@ -74,5 +63,3 @@ void printer(SET S){
     printf("}\n");
 }
 ```
-
-
